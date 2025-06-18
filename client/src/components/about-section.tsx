@@ -4,9 +4,9 @@ export default function AboutSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="fade-in">
-            <h2 className="text-4xl md:text-5xl font-playfair font-bold text-barber-gold mb-6">About Diamond Scissors</h2>
+            <h2 className="text-4xl md:text-5xl font-playfair font-bold text-barber-gold mb-6">About Barber 36</h2>
             <p className="text-lg text-barber-light mb-6">
-              Welcome to Diamond Scissors barbers in Sutton Coldfield. We take pride in delivering exceptional grooming services tailored to the modern man. Our team of skilled barbers are dedicated to providing an experience that combines traditional barbering with contemporary style. Step into our shop and let us redefine your grooming routine.
+              Welcome to Barber 36 in Sutton Coldfield. We take pride in delivering exceptional grooming services tailored to the modern man. Our team of skilled barbers are dedicated to providing an experience that combines traditional barbering with contemporary style. Step into our shop and let us redefine your grooming routine.
             </p>
             <p className="text-lg text-barber-light mb-8">
               Located in the heart of Sutton Coldfield, we've been serving the community with exceptional grooming services. Every cut is crafted with precision, every shave is executed with care, and every client leaves feeling confident and refreshed.

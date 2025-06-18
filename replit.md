@@ -98,7 +98,9 @@ Barber 36 is a modern full-stack web application for a premium barbering busines
 
 ```
 Changelog:
-- June 18, 2025. Initial setup
+- June 18, 2025. Initial setup with complete barber website
+- June 18, 2025. Updated branding from "Diamond Scissors" to "Barber 36"
+- June 18, 2025. Added custom description highlighting exceptional grooming services
 ```
 
 ## User Preferences
