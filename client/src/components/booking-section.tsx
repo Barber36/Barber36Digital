@@ -66,7 +66,7 @@ export default function BookingSection() {
       email: "",
       phone: "",
       service: "",
-      barber: "",
+      barber: "no-preference",
       date: "",
       time: "",
       notes: "",
