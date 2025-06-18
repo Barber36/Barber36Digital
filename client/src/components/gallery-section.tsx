@@ -8,10 +8,6 @@ const galleryImages = [
     alt: "Professional barber tools"
   },
   {
-    src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-    alt: "Hot towel shave service"
-  },
-  {
     src: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
     alt: "Barber shop interior"
   },
