@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Cinzel:wght@400;600&display=swap');
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(45, 86%, 58%);
+  --primary-foreground: hsl(20, 14.3%, 4.1%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(60, 4.8%, 95.9%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+  
+  /* Barber-specific colors */
+  --barber-dark: hsl(0, 0%, 10.2%);
+  --barber-gray: hsl(0, 0%, 17.6%);
+  --barber-gold: hsl(45, 86%, 58%);
+  --barber-bronze: hsl(43, 89%, 38%);
+  --barber-light: hsl(0, 0%, 80%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(45, 86%, 58%);
+  --primary-foreground: hsl(20, 14.3%, 4.1%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+  
+  .bg-barber-dark {
+    background-color: var(--barber-dark);
+  }
+  
+  .bg-barber-gray {
+    background-color: var(--barber-gray);
+  }
+  
+  .bg-barber-gold {
+    background-color: var(--barber-gold);
+  }
+  
+  .bg-barber-bronze {
+    background-color: var(--barber-bronze);
+  }
+  
+  .text-barber-dark {
+    color: var(--barber-dark);
+  }
+  
+  .text-barber-gray {
+    color: var(--barber-gray);
+  }
+  
+  .text-barber-gold {
+    color: var(--barber-gold);
+  }
+  
+  .text-barber-bronze {
+    color: var(--barber-bronze);
+  }
+  
+  .text-barber-light {
+    color: var(--barber-light);
+  }
+  
+  .border-barber-gold {
+    border-color: var(--barber-gold);
+  }
+  
+  .hover-gold {
+    transition: all 0.3s ease;
+  }
+  
+  .hover-gold:hover {
+    color: var(--barber-gold);
+    transform: translateY(-2px);
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
