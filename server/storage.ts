@@ -45,6 +45,8 @@ export class MemStorage implements IStorage {
     const appointment: Appointment = {
       ...insertAppointment,
       id,
+      barber: insertAppointment.barber || null,
+      notes: insertAppointment.notes || null,
       status: "pending",
       createdAt: new Date(),
     };

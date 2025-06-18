@@ -23,7 +23,7 @@ export default function HeroSection() {
           Barbering Experience
         </h1>
         <p className="text-xl md:text-2xl text-barber-light mb-8 max-w-3xl mx-auto fade-in">
-          Welcome to Barber 36 in Sutton Coldfield. We take pride in delivering exceptional grooming services tailored to the modern man.
+          Welcome to Diamond Scissors barbers in Sutton Coldfield. We take pride in delivering exceptional grooming services tailored to the modern man. Our team of skilled barbers are dedicated to providing an experience that combines traditional barbering with contemporary style. Step into our shop and let us redefine your grooming routine.
         </p>
         <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center fade-in">
           <button 

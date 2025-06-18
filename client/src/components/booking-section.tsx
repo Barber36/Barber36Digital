@@ -36,7 +36,7 @@ const services = [
 ];
 
 const barbers = [
-  { value: "", label: "No preference" },
+  { value: "no-preference", label: "No preference" },
   { value: "mark", label: "Mark - Senior Barber" },
   { value: "james", label: "James - Master Barber" },
   { value: "alex", label: "Alex - Traditional Specialist" },
