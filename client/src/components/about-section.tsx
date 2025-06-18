@@ -11,16 +11,6 @@ export default function AboutSection() {
             <p className="text-lg text-barber-light mb-8">
               Located in the heart of Sutton Coldfield, we've been serving the community with exceptional grooming services. Every cut is crafted with precision, every shave is executed with care, and every client leaves feeling confident and refreshed.
             </p>
-            <div className="grid grid-cols-2 gap-6">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-barber-gold mb-2">5+</div>
-                <div className="text-barber-light">Years Experience</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-barber-gold mb-2">1000+</div>
-                <div className="text-barber-light">Happy Clients</div>
-              </div>
-            </div>
           </div>
           <div className="fade-in">
             <img 
