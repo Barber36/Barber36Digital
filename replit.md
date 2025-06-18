@@ -101,6 +101,7 @@ Changelog:
 - June 18, 2025. Initial setup with complete barber website
 - June 18, 2025. Updated branding from "Diamond Scissors" to "Barber 36"
 - June 18, 2025. Added custom description highlighting exceptional grooming services
+- June 18, 2025. Updated contact info: phone to 0121 725 1977, new opening hours, copyright to 2025
 ```
 
 ## User Preferences

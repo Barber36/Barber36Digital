@@ -42,14 +42,14 @@ export default function Footer() {
             <h4 className="text-lg font-semibold text-white mb-4">Contact Info</h4>
             <div className="space-y-2 text-barber-light">
               <p>36 High Street, Sutton Coldfield</p>
-              <p>Phone: 0121 355 8888</p>
+              <p>Phone: 0121 725 1977</p>
               <p>Email: info@barber36.co.uk</p>
             </div>
           </div>
         </div>
         
         <div className="border-t border-barber-gold/20 mt-12 pt-8 text-center">
-          <p className="text-barber-light">&copy; 2024 Barber 36. All rights reserved.</p>
+          <p className="text-barber-light">&copy; 2025 Barber 36. All rights reserved.</p>
         </div>
       </div>
     </footer>
