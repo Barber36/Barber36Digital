@@ -27,12 +27,12 @@ const bookingSchema = z.object({
 type BookingFormData = z.infer<typeof bookingSchema>;
 
 const services = [
-  { value: "classic-cut", label: "Classic Cut - £25" },
-  { value: "beard-trim", label: "Beard Trim - £18" },
-  { value: "hot-towel-shave", label: "Hot Towel Shave - £30" },
-  { value: "full-service", label: "The Full Service - £55" },
-  { value: "kids-cut", label: "Kids Cut - £20" },
-  { value: "wedding-prep", label: "Wedding Prep - £75" },
+  { value: "haircut", label: "Haircut - £14" },
+  { value: "student-haircut", label: "Student Haircut - £12" },
+  { value: "kids-cut", label: "Kids (under 9) - £10" },
+  { value: "hair-and-beard", label: "Hair and Beard - £20" },
+  { value: "hot-towel-addon", label: "Hot Towel & Steamer Add-on - +£5" },
+  { value: "special-design-addon", label: "Hair Special Design Add-on - +£5" },
 ];
 
 const barbers = [

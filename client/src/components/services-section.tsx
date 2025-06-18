@@ -3,39 +3,39 @@ import { Scissors, UserCheck, Sparkles, Star, Baby, Users } from "lucide-react";
 const services = [
   {
     icon: <Scissors className="h-8 w-8" />,
-    title: "Classic Cut",
+    title: "Haircut",
     description: "Traditional barbering techniques for timeless styles. Includes consultation, cut, and styling.",
-    price: "£25"
+    price: "£14"
   },
   {
     icon: <UserCheck className="h-8 w-8" />,
-    title: "Beard Trim",
-    description: "Professional beard shaping and trimming to complement your facial structure perfectly.",
-    price: "£18"
-  },
-  {
-    icon: <Sparkles className="h-8 w-8" />,
-    title: "Hot Towel Shave",
-    description: "Luxurious traditional wet shave with hot towel treatment for the ultimate experience.",
-    price: "£30"
-  },
-  {
-    icon: <Star className="h-8 w-8" />,
-    title: "The Full Service",
-    description: "Complete grooming package: cut, beard trim, hot towel shave, and styling.",
-    price: "£55"
+    title: "Student Haircut",
+    description: "Discounted haircut for students with valid ID. Same professional service at a reduced rate.",
+    price: "£12"
   },
   {
     icon: <Baby className="h-8 w-8" />,
-    title: "Kids Cut",
-    description: "Gentle, professional haircuts for children with patience and care.",
+    title: "Kids (under 9)",
+    description: "Gentle, professional haircuts for children under 9 years old with patience and care.",
+    price: "£10"
+  },
+  {
+    icon: <Star className="h-8 w-8" />,
+    title: "Hair and Beard",
+    description: "Complete grooming package: haircut and beard trim combination service.",
     price: "£20"
   },
   {
+    icon: <Sparkles className="h-8 w-8" />,
+    title: "Hot Towel & Steamer Add-on",
+    description: "Luxurious hot towel treatment and steamer service to enhance any haircut.",
+    price: "+£5"
+  },
+  {
     icon: <Users className="h-8 w-8" />,
-    title: "Wedding Prep",
-    description: "Special occasion grooming for your big day. Includes consultation and trial run.",
-    price: "£75"
+    title: "Hair Special Design Add-on",
+    description: "Custom hair designs and special styling to make your cut unique.",
+    price: "+£5"
   }
 ];
 
