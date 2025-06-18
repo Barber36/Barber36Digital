@@ -15,10 +15,7 @@ const galleryImages = [
     src: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
     alt: "Barber shop interior"
   },
-  {
-    src: "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-    alt: "Premium grooming products"
-  },
+  
   {
     src: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
     alt: "Modern barber shop setup"
