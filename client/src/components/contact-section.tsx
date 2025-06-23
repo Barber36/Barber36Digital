@@ -63,8 +63,8 @@ export default function ContactSection() {
           
           <div className="fade-in">
             <img 
-              src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-              alt="Barber 36 storefront" 
+              src="https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+              alt="Professional barber at work" 
               className="rounded-lg shadow-2xl w-full" 
             />
           </div>
