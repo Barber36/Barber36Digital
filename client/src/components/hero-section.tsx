@@ -19,7 +19,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-black/60" />
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-5xl md:text-7xl font-playfair font-bold mb-6 fade-in">
-          <span className="text-barber-gold">Premium</span><br />
+          <span className="text-barber-gold">Barber 36</span><br />
           Barbering Experience
         </h1>
         <p className="text-xl md:text-2xl text-barber-light mb-8 max-w-3xl mx-auto fade-in">
