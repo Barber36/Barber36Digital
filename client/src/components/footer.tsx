@@ -27,7 +27,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
             <ul className="space-y-2">
@@ -37,17 +37,17 @@ export default function Footer() {
               <li><button onClick={() => scrollToSection('booking')} className="text-barber-light hover:text-barber-gold transition-colors">Book Now</button></li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">Contact Info</h4>
             <div className="space-y-2 text-barber-light">
-              <p>36A High Street, Sutton Coldfield</p>
+              <p>36A High Street, Sutton Coldfield, Birmingham, West Midlands, B73 6LB</p>
               <p>Phone: 0121 725 1977</p>
               <p>Email: info@barber36.co.uk</p>
             </div>
           </div>
         </div>
-        
+
         <div className="border-t border-barber-gold/20 mt-12 pt-8 text-center">
           <p className="text-barber-light">&copy; 2025 Barber 36. All rights reserved.</p>
         </div>

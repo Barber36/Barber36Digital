@@ -8,7 +8,7 @@ export default function ContactSection() {
           <h2 className="text-4xl md:text-5xl font-playfair font-bold text-barber-gold mb-4">Contact Us</h2>
           <p className="text-xl text-barber-light">Visit us in Sutton Coldfield or get in touch</p>
         </div>
-        
+
         <div className="grid lg:grid-cols-2 gap-12">
           <div className="space-y-8 fade-in">
             <div className="flex items-start space-x-4">
@@ -20,11 +20,13 @@ export default function ContactSection() {
                 <p className="text-barber-light">
                   36A High Street<br />
                   Sutton Coldfield<br />
-                  B73 6LB, West Midlands
+                  Birmingham<br />
+                  West Midlands<br />
+                  B73 6LB
                 </p>
               </div>
             </div>
-            
+
             <div className="flex items-start space-x-4">
               <div className="text-barber-gold text-2xl mt-1">
                 <Phone className="h-6 w-6" />
@@ -34,7 +36,7 @@ export default function ContactSection() {
                 <p className="text-barber-light">0121 725 1977</p>
               </div>
             </div>
-            
+
             <div className="flex items-start space-x-4">
               <div className="text-barber-gold text-2xl mt-1">
                 <Mail className="h-6 w-6" />
@@ -44,7 +46,7 @@ export default function ContactSection() {
                 <p className="text-barber-light">info@barber36.co.uk</p>
               </div>
             </div>
-            
+
             <div className="flex items-start space-x-4">
               <div className="text-barber-gold text-2xl mt-1">
                 <Clock className="h-6 w-6" />
@@ -60,7 +62,7 @@ export default function ContactSection() {
               </div>
             </div>
           </div>
-          
+
           <div className="fade-in">
             <img 
               src="https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
