@@ -18,7 +18,7 @@ export default function ContactSection() {
               <div>
                 <h3 className="text-xl font-semibold mb-2">Location</h3>
                 <p className="text-barber-light">
-                  36 High Street<br />
+                  36A High Street<br />
                   Sutton Coldfield<br />
                   B73 6LB, West Midlands
                 </p>
