@@ -1,59 +1,55 @@
 
-# Barber 36 - Static Website
+# Barber 36 - Professional Barbering Experience
 
-A professional barbering website for Barber 36 in Sutton Coldfield.
+A modern, full-stack web application for Barber 36 in Sutton Coldfield.
 
 ## Features
 
 - Responsive design optimized for all devices
+- Online appointment booking system
 - Service showcase with pricing
-- Google Calendar integration for online booking
 - Contact information and location details
 - Professional gallery section
+- Email notifications for new bookings
 
-## Local Development
+## Tech Stack
 
-1. Navigate to the client directory:
-   ```bash
-   cd client
-   ```
+- **Frontend**: React, TypeScript, Tailwind CSS, Vite
+- **Backend**: Express.js, Node.js
+- **Database**: PostgreSQL with Drizzle ORM
+- **Email**: Nodemailer for appointment notifications
+- **UI Components**: Radix UI with custom styling
 
-2. Install dependencies:
+## Getting Started
+
+1. Install dependencies:
    ```bash
    npm install
    ```
 
-3. Start the development server:
+2. Set up environment variables (create `.env` file):
+   ```
+   DATABASE_URL=your_database_url
+   SMTP_HOST=smtp.gmail.com
+   SMTP_PORT=587
+   SMTP_USER=your_email@gmail.com
+   SMTP_PASS=your_app_password
+   BARBER_EMAIL=barber36sutton@gmail.com
+   ```
+
+3. Push database schema:
+   ```bash
+   npm run db:push
+   ```
+
+4. Start the development server:
    ```bash
    npm run dev
    ```
 
-4. Open your browser to `http://localhost:5173`
+## Deployment
 
-## GitHub Pages Deployment
-
-1. Push your code to a GitHub repository
-2. Go to your repository settings
-3. Navigate to "Pages" in the left sidebar
-4. Under "Source", select "GitHub Actions"
-5. The workflow will automatically deploy your site
-
-## Building for Production
-
-To build the static files locally:
-
-```bash
-cd client
-npm run build
-```
-
-The built files will be in the `client/dist` directory.
-
-## Configuration
-
-- Update the `base` path in `client/vite.config.ts` to match your GitHub repository name
-- The Google Calendar booking integration is embedded and ready to use
-- Contact information is already configured for Barber 36
+Deploy on Replit with autoscale deployment for full functionality including the booking system and email notifications.
 
 ## Contact Information
 
