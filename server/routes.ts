@@ -17,10 +17,10 @@ const transporter = nodemailer.createTransport({
 });
 
 async function sendBookingNotification(appointment: any) {
-  const barberEmail = process.env.BARBER_EMAIL || process.env.SMTP_USER || "barber@barber36.co.uk";
+  const barberEmail = process.env.BARBER_EMAIL || "barber36sutton@gmail.com";
   
   const mailOptions = {
-    from: process.env.SMTP_USER || "noreply@barber36.co.uk",
+    from: process.env.SMTP_USER || "barber36sutton@gmail.com",
     to: barberEmail,
     subject: "New Appointment Booking - Barber 36",
     html: `

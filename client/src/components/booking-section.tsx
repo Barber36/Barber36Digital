@@ -37,9 +37,7 @@ const services = [
 
 const barbers = [
   { value: "no-preference", label: "No preference" },
-  { value: "mark", label: "Mark - Senior Barber" },
-  { value: "james", label: "James - Master Barber" },
-  { value: "alex", label: "Alex - Traditional Specialist" },
+  { value: "nash", label: "Nash - Master Barber" },
 ];
 
 const timeSlots = [
